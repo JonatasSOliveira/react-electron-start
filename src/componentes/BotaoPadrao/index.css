@@ -1,0 +1,17 @@
+.componenteBotao {
+  background-color: #000;
+  color: #fff;
+  min-width: 90px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.componenteBotao:hover {
+  cursor: pointer;
+  background-color: #292929;
+}

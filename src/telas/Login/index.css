@@ -1,0 +1,26 @@
+.telaLogin {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.telaLogin_container {
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.telaLogin_container > h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
