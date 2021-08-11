@@ -1,7 +1,6 @@
 import { MemoryRouter, Route, Switch } from "react-router-dom";
 
 import Login from "../telas/Login/index.jsx";
-import Painel from "../telas/Painel/index.jsx";
 import React from "react";
 
 function Router() {
@@ -9,7 +8,6 @@ function Router() {
     <MemoryRouter>
       <Switch>
         <Route component={Login} exact path="/" />
-        <Route component={Painel} exact path="/painel" />
       </Switch>
     </MemoryRouter>
   );
